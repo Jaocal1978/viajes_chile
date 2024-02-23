@@ -20,7 +20,7 @@ body {
 }
 
 
-#quienes_somos {
+#qs {
     color: #ffffff;
 }
 
@@ -53,4 +53,20 @@ body {
 footer {
     background: #7ebbf1;
     color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    
+    
+    
+}
+
+@media (max-width: 767px) {
+
+    
+    #titulo-footer, #iconos-footer {
+        text-align: center !important;
+        padding: 2px !important;
+    }
+    
 }
