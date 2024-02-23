@@ -8,6 +8,11 @@
     <meta name="description" content="Paginas de ofertas varias de viajes">
     <meta name="keywords" content="Compras, ofertas, transacciones, hoteleria, viajes, turismo">
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
     <!--fontawesome-->
     <script src="https://kit.fontawesome.com/c928e1895b.js" crossorigin="anonymous"></script>
     
@@ -57,7 +62,7 @@
     <header id="inicio" class="conatiner-fluid pb-5">
         <div class="row">
             <div class="col">
-                <div id="carouselExample" class="carousel slide">
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
@@ -90,9 +95,9 @@
         <hr>
         <div class="row">
             <div class="col-12 col-md-4 col-xl-4 pb-3">
-                <div class="card qs">
-                    <i class="fa-solid fa-plane color-blue pt-3 pb-3"></i>
-                    <div class="card-body">
+                <div id="cardqs1" class="card qs">
+                    <i id="icon1" class="fa-solid fa-plane color-blue pt-3 pb-3"></i>
+                    <div id="card-body1" class="card-body">
                         <p class="card-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Est magni vitae, a aspernatur aut officiis porro temporibus alias,
@@ -105,8 +110,8 @@
                 </div>
             </div>
             <div class="col-12 col-md-4 col-xl-4 pb-3">
-                <div class="card qs">
-                    <div class="card-body">
+                <div id="cardqs2" class="card qs">
+                    <div id="card-body2" class="card-body">
                         <p class="card-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Est magni vitae, a aspernatur aut officiis porro temporibus alias,
@@ -116,13 +121,13 @@
                             nesciunt laudantium! Molestias quisquam at nobis eius blanditiis vel!
                         </p>
                     </div>
-                    <i class="fa-solid fa-mountain color-blue pt-3 pb-3"></i>
+                    <i id="icon2" class="fa-solid fa-mountain color-blue pt-3 pb-3"></i>
                 </div>
             </div>
             <div class="col-12 col-md-4 col-xl-4">
-                <div class="card qs">
-                    <i class="fa-solid fa-route color-blue pt-3 pb-3"></i>
-                    <div class="card-body">
+                <div id="cardqs3" class="card qs">
+                    <i id="icon3" class="fa-solid fa-route color-blue pt-3 pb-3"></i>
+                    <div id="card-body3" class="card-body">
                         <p class="card-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Est magni vitae, a aspernatur aut officiis porro temporibus alias,
@@ -138,11 +143,11 @@
     </section>
 
     <!--Destacados-->
-    <section id="dstcd" class="container text-center pb-5 dest">
+    <section id="dstcd" class="container text-center pt-4 pb-5 dest">
         <h2 class="pb-4">DESTACADOS</h2>
         <hr>
         <div class="row">
-            <div class="col-12 col-md-6 col-xl-3 pb-4">
+            <div id="card1" class="col-12 col-md-6 col-xl-3 pb-4">
                 <div class="card">
                     <img src="assets/img/card1.jpg" class="card-img-top img-size" alt="...">
                     <div class="card-body col-dest">
@@ -155,7 +160,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-xl-3 pb-4">
+            <div id="card2" class="col-12 col-md-6 col-xl-3 pb-4">
                 <div class="card">
                     <img src="assets/img/card2.jpg" class="card-img-top img-size" alt="...">
                     <div class="card-body col-dest">
@@ -168,7 +173,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-xl-3 pb-4">
+            <div id="card3" class="col-12 col-md-6 col-xl-3 pb-4">
                 <div class="card">
                     <img src="assets/img/card3.jpg" class="card-img-top img-size" alt="...">
                     <div class="card-body col-dest">
@@ -181,7 +186,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-xl-3 pb-4">
+            <div id="card4" class="col-12 col-md-6 col-xl-3 pb-4">
                 <div class="card">
                     <img src="assets/img/card4.jpg" class="card-img-top img-size" alt="...">
                     <div class="card-body col-dest">

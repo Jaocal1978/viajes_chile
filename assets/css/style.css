@@ -50,6 +50,11 @@ body {
     background: #7ebbf1;
 }
 
+#icon1, #icon2, #icon3
+{
+    font-size: 20px;
+}
+
 footer {
     background: #7ebbf1;
     color: #ffffff;
