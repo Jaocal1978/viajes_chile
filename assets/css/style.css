@@ -55,6 +55,12 @@ footer {
     color: #ffffff;
 }
 
+.tooltip-color, .tooltip-inner{
+    background: #ffffff !important;
+    color: #4e0202 !important;
+    font-size: medium;
+}
+
 @media (min-width: 768px) {
     
     

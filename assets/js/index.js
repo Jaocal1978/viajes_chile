@@ -28,3 +28,9 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 }, false);
 
+$(function () {
+    $('[data-bs-toggle="tooltip"]').tooltip({
+        boundary: "window",
+        template: '<div class="tooltip tooltip-color" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>' 
+    });
+})

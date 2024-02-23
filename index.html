@@ -205,17 +205,17 @@
                 <form id="formContacto" class="form-color">
                     <div class="mb-3">
                         <label for="txtNombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="txtNombre">
+                        <input type="text" class="form-control" id="txtNombre" data-bs-toggle="tooltip" data-bs-title="Escriba su nombre por favor.">
                     </div>
                     <div class="mb-3">
                         <label for="txtAsunto" class="form-label">Asunto</label>
-                        <input type="text" class="form-control" id="txtAsunto">
+                        <input type="text" class="form-control" id="txtAsunto" data-bs-toggle="tooltip" data-bs-title="Escriba un Asunto por favor.">
                     </div>
                     <div class="mb-3">
                         <label for="txtCorreo" class="form-label">Mensaje</label>
-                        <textarea name="correo" id="txtCorreo" class="form-control" rows="4"></textarea>
+                        <textarea name="correo" id="txtCorreo" class="form-control" rows="4" data-bs-toggle="tooltip" data-bs-title="Escriba un mensaje por favor."></textarea>
                     </div>
-                    <button id="btnEnviar" type="submit" class="btn btn-primary color">
+                    <button id="btnEnviar" type="submit" class="btn btn-primary color" data-bs-toggle="tooltip" data-bs-title="Presione para enviar por favor.">
                         <i class="fa-solid fa-paper-plane"></i> Enviar
                     </button>
                 </form>
