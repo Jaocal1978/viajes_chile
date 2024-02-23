@@ -55,6 +55,10 @@ footer {
     color: #ffffff;
 }
 
+footer a{
+    color: #ffffff;
+}
+
 .tooltip-color, .tooltip-inner{
     background: #ffffff !important;
     color: #4e0202 !important;
