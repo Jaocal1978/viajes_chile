@@ -28,3 +28,16 @@ body {
     background: #000000;
     color: #ffffff;
 }
+
+.dest {
+    color: #ffffff;
+}
+
+.img-size {
+    height: 250px;
+}
+
+.col-dest {
+    background: #7ebbf1;
+    color: #ffffff;
+}
