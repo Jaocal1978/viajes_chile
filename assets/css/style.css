@@ -13,3 +13,18 @@ body {
     width: 60px;
     height: 80px;
 }
+
+.color-blue {
+    background: #2c01b8;
+    color: #ffffff;
+}
+
+
+#quienes_somos {
+    color: #ffffff;
+}
+
+.qs {
+    background: #000000;
+    color: #ffffff;
+}
